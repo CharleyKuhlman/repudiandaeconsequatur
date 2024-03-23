@@ -1,0 +1,59 @@
+{
+  "name": "repudiandaeconsequatur",
+  "version": "1.0.0",
+  "description": "Bynder Javascript SDK",
+  "main": "./dist/bynder-js-sdk.js",
+  "scripts": {
+    "test": "jest",
+    "build": "gulp babel",
+    "prepublish": "gulp babel"
+  },
+  "author": "PatrickGaylord",
+  "license": "MIT",
+  "files": [
+    "dist/bynder-js-sdk.js"
+  ],
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "~3.7.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.15.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-jsdoc3": "^2.0.0",
+    "jest": "^24.9.0",
+    "json-loader": "^0.5.7",
+    "path": "^0.12.7",
+    "webpack": "^4.41.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "is-url": "^1.2.4",
+    "isomorphic-form-data": "^1.0.0",
+    "node-fetch": "^1.6.0",
+    "proper-url-join": "^1.2.0",
+    "query-string": "^6.13.8",
+    "simple-oauth2": "^2.5.1"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CharleyKuhlman/repudiandaeconsequatur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CharleyKuhlman/repudiandaeconsequatur.git/issues"
+  },
+  "homepage": "https://github.com/CharleyKuhlman/repudiandaeconsequatur.git"
+}
